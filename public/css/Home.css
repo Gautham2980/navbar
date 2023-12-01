@@ -1,0 +1,147 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#banner-section{
+    background-color:  #004466;
+    height: 80vh;
+}
+
+.banner-container{
+    width: 90%;
+    margin: auto;
+}
+
+.banner-row{
+    display: flex;
+} 
+
+ .banner-head{ 
+    padding-top:20%;
+    padding-left: 5%;
+    font-size: 38px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+} 
+
+ .banner-col{
+    width: 45%;
+    padding: 10px;
+    
+} 
+
+ .banner-para{
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 15px;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.button-div{
+    padding-top: 50px;
+    padding-left: 35px;
+    
+}
+
+.banner-button{
+    padding: 12px 24px;
+    border-radius:20px;
+    border: none;
+    font-size: 17px;
+    background-color:  #87c6e5;
+    color: white;
+}
+
+.banner-button:hover{
+    cursor: pointer;
+    
+}
+
+.flex{
+    display: flex;
+    
+} 
+
+.play{
+      padding-top: 55px;
+      padding-left: 7%;
+    display: flex;
+}
+
+.play i{
+    font-size: 35px;
+    color: white;
+    display:inline;
+}
+
+.play span{
+    padding-left: 10px;
+    font-size: 17px;
+    padding-top: 50px;
+    color: white;
+    
+}
+
+.watch{
+    padding-top: 6px;
+    padding-left: 10px;
+    font-size: 16px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .banner-image{
+    width: 45%;
+    padding-top: 90px;
+    padding-left: 7%;
+    position: absolute;
+} 
+
+.banner-image img{
+    width: 100%;
+    animation:imgg 6s ease-in-out infinite;
+    animation-delay:0.7s;
+    transition:left 1s ease;
+}
+
+@keyframes imgg{
+	0%{transform:translatey(1);}
+	50%{transform:translatey(-10%);}
+	100%{transform:translatey(0)}
+}
+
+/* 
+client */
+
+.image-container{
+    width: 100%;
+    margin: auto;
+}
+
+.image-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #ebf0fa;
+    
+    height: 15vh;
+}
+
+.image-col{
+    width: 7%; 
+}
+
+.image-col img{
+    width: 100%;
+    Filter : grayscale(1)
+}
+
+.image-col img:hover{
+   
+    Filter : grayscale(0.1)
+
+}

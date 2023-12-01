@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-container{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+ }
+
+ .contact-head{
+    text-align: center;
+    padding-top: 50px;
+    color: #004466;
+ }
+
+ .contact-para{
+    text-align:center;
+        font-size:16px;
+        padding-bottom:10px;
+        padding-left: 8%;
+        width: 90%;
+        color: gray;
+ }
+ .contact-col{
+    width: 45%;
+ padding: 20px;
+    box-shadow: 0 0 5px#004466 ;
+    height: 80vh;
+    margin: 10px;
+  
+ } 
+
+ .contact-card{
+    margin: 10px;
+ }
+
+  .location{
+    display:flex;
+    padding: 10px;
+ }
+
+ .email{
+    display: flex;
+    padding: 10px;
+ }
+
+ .call{
+    display: flex;
+    padding: 10px;
+ }  
+
+ .loc-head{
+    padding-left: 30px;
+    color: #004466;
+ }
+
+ .loc-para{
+    padding-left: 30px;
+    color: #18a5ec;
+    font-size: 15px;
+ }
+
+ .contact-col i{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: #18a5ec;
+ }
+
+ .mail-head{
+    padding-left: 20px;
+    color: #004466;
+ }
+
+ .mail-para{
+    padding-left: 20px;
+    color: #18a5ec;
+    font-size: 15px;
+ }
+
+ .call-head{
+    padding-left: 20px;
+    color: #004466;
+ }
+
+ .call-para{
+    padding-left: 20px;
+    color: #18a5ec;
+    font-size: 15px;
+ }
+
+ .maps{
+    padding-left: 30px;
+    padding-top: 30px;
+ }
+
+ .contact-row{
+    display: flex;
+  
+ } 
+
+ .contact-col2{
+    width: 45%;
+    padding: 20px;
+    height: 80vh;
+    box-shadow: 0 0 5px#004466 ;
+    margin: 10px;
+    
+ }
+
+
+.form-col{
+    display: flex;
+    width: 100%; 
+}
+
+.form-row{
+    width: 100%;
+}
+
+ .input-box{
+    width: 50%;
+  
+   padding-left: 20px;
+   padding-top: 20px;
+  
+    
+} 
+
+.input-box input{
+    width: 100%;
+    padding: 12px 30px;
+    border: 1px solid #5ba9d0;
+}
+
+.input-email{
+    width: 50%;
+  padding-left: 10px;
+  padding-top: 20px;
+   
+}
+
+.input-email input{
+    width: 100%;
+    padding: 12px 24px;
+    border: 1px solid #5ba9d0;
+} 
+
+.sub{
+    width: 100%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.sub input{
+	width:100%;
+	padding: 12px 20px;
+    
+    border: 1px solid #5ba9d0;
+
+
+}
+
+.meg{
+    /* width: 100%; */
+    padding-left: 23px;
+    padding-top: 20px;
+    
+}
+
+.meg textarea{
+    width: 100%;
+    border: 1px solid #5ba9d0;
+}
+
+.form-bt{
+    padding-left: 7%;
+    padding-top: 30px;
+}
+
+.form-bt .form-btn{
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color:#5ba9d0 ;
+    color: white;
+    border: none;
+}
+
+.form-col span{
+    color: #004466;
+}
+
+.form-col input[type=text]:focus {
+    border: 2px solid#004466 ;
+  }

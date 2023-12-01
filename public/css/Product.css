@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio-container{
+    width:90%;
+margin:auto;
+padding-bottom: 50px;
+}
+.port-row{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+     margin:auto; 
+}  
+
+
+.port-col{
+    width: 30%;
+    margin: 20px;
+   
+}
+#portfolio-section h5 {
+    text-align:center;
+    font-size:32px;
+    padding-bottom:10px;
+    padding-top: 50px;
+}
+#portfolio-section .po{
+    text-align:center;
+    font-size:16px;
+    padding-bottom:10px;
+    padding-left: 8%;
+    width: 90%;
+}
+.port-btn{
+    text-align:center;
+   padding-top:25px;
+   padding-bottom:10px
+}
+
+.button2{
+   padding:10px 15px;
+   background-color:white;
+   color:black;
+   border-radius:5px;
+   border:1px solid white;
+}
+.button1{
+   padding:10px 20px;
+   background-color:	 #4d79ff;
+   color:white;
+   border-radius:50px;
+   border:2px solid white;
+}
+
+.button2:hover{
+   background:	 #4d79ff;
+   color:white;
+   border-radius:50px;
+}
+
+
+
+   
+.port-card{position:relative;}
+
+.port-col img{
+   width:100%;
+   margin: 5px;
+   
+}
+
+.port-cont1,.port-cont2,.port-cont3,.port-cont4,.port-cont5,.port-cont6,.port-cont7,.port-cont8,.port-cont9  {
+position:absolute;
+z-index:2;
+display:none;
+color: white;
+}
+
+.port-cont1{top:83%;
+           left:3%;}
+   
+.port-cont2{
+   bottom:3%;
+   left:3%;
+   
+}
+.port-cont3{
+top:75%;
+left:3%;}
+
+.port-cont4{
+   left: 3%;
+   top:85%;
+   
+}
+.port-cont5{
+      bottom:4%;
+left: 3%;}
+.port-cont6{
+       bottom:4%;
+       left:3%;
+       
+}
+.port-cont7{
+   bottom:4%;
+   left:3%;
+}
+.port-cont8{
+   bottom:4%;
+   left:3%;
+       
+}
+
+.port-cont9{
+   left:3%;
+   bottom:4%;}
+   
+.port-col .port-card:hover .port-cont1{display:block;} 	
+.port-col .port-card:hover .port-cont2{display:block;} 	
+.port-col .port-card:hover .port-cont3{display:block;} 	
+.port-col .port-card:hover .port-cont4{display:block;} 	
+.port-col .port-card:hover .port-cont5{display:block;} 	
+.port-col .port-card:hover .port-cont6{display:block;} 	
+.port-col .port-card:hover .port-cont7{display:block;} 
+.port-col .port-card:hover .port-cont8{display:block;} 
+.port-col .port-card:hover .port-cont9{display:block;} 
+
+.port-col .port-card:hover .bg-color{display:block;} 	
+.port-col .port-card:hover .bg-color2{display:block;} 	
+.port-col .port-card:hover .bg-color3{display:block;} 	
+.port-col .port-card:hover .color{display:block;} 
+
+   
+   
+   
+
+
+
+
+.bg-color{
+   background-color:#4d79ff;
+   width:100%;
+   height:12vh;
+   position:absolute;
+   bottom:0%;
+   left:0;
+   opacity:0.7;
+   display:none;
+   
+   
+}
+
+.color{
+   background-color:	 #4d79ff;
+   width:100%;
+   height:14vh;
+   position:absolute;
+   bottom:1%;
+   left:1%;
+   opacity:0.7;
+   display:none;
+}
+
+.bg-color2{
+   background-color:	 #4d79ff;
+   width:100%;
+   height:15vh;
+   position:absolute;
+   bottom:1%;
+   left:2%;
+   opacity:0.7;
+   display:none;
+
+}
+.bg-color3{
+   background-color:	 #4d79ff;
+   width:100%;
+   height:15vh;
+   position:absolute;
+   bottom:2%;
+   left:1.5%;
+   opacity:0.7;
+   display:none;
+
+   
+}
